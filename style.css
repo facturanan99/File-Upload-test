@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#uploadImage {
+  font-size: 3rem;
+}
+
+.progress span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper {
+  background-color: #fff;
+  width: 40%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.img-fluid {
+  margin: 10px 0;
+}
+
+.img-thumbnail {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
